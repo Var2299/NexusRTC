@@ -22,7 +22,10 @@ NexusRTC is a high-performance, real-time communication platform built using the
 
 | Welcome Page | Sidebar & Chat | Theme Customization | Profile Settings |
 | :---: | :---: | :---: | :---: |
-| ![Chat](https://via.placeholder.com/400x250?text=Chat+Interface) | ![Chat](https://via.placeholder.com/400x250?text=Chat+Interface) | ![Themes](https://via.placeholder.com/400x250?text=DaisyUI+Themes) | ![Profile](https://via.placeholder.com/400x250?text=Profile+Management) |
+| <img width="1918" height="981" alt="image" src="https://github.com/user-attachments/assets/f710bb2a-1d8a-427f-bccd-c3a0ef82c1c8" />
+| <img width="1917" height="973" alt="image" src="https://github.com/user-attachments/assets/5e038244-4563-44f0-8bac-a2cda8181afd" />
+| <img width="1890" height="980" alt="image" src="https://github.com/user-attachments/assets/bf165caf-42d7-491c-8753-f778e6789375" />
+| <img width="1893" height="977" alt="image" src="https://github.com/user-attachments/assets/894cef27-9031-4714-a77e-5a871ff5f4cb" />|
 
 ---
 
