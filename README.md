@@ -1,4 +1,4 @@
-# 🚀 NexusRTC - Full Stack Realtime Chat Application
+# 🚀 NexusRTC - Realtime Chat Application
 
 NexusRTC is a high-performance, real-time communication platform built using the MERN stack. It features instant messaging, file sharing (images & documents), and live user status updates.
 
