@@ -40,6 +40,10 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
+app.get("/ping", (req, res) => {
+  res.status(200).send("Server is awake");
+});
+
 server.listen(PORT, () => {
   console.log("server is running on PORT:" + PORT);
   connectDB();
