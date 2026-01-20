@@ -34,7 +34,7 @@ NexusRTC is a high-performance, real-time communication platform built using the
 
  ### Theme Customization
  
- <img width="1890" height="980" alt="image" src="https://github.com/user-attachments/assets/bf165caf-42d7-491c-8753-f778e6789375" />
+ <img width="1897" height="987" alt="image" src="https://github.com/user-attachments/assets/898d273b-8e14-45c0-8c06-8b66cf79d7dc" />
 
  ---
 
