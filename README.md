@@ -44,6 +44,12 @@ NexusRTC is a high-performance, real-time communication platform built using the
 
  ---
 
+ ### User Info(MONGO_DB)
+ 
+ <img width="1387" height="237" alt="image" src="https://github.com/user-attachments/assets/f9048387-a922-4ad6-8a79-7422c97ed04f" />
+
+ ---
+ 
 ## 🛠️ Installation & Setup
 
 ### 1. Clone the repository
