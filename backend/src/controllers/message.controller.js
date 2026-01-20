@@ -43,8 +43,13 @@ export const sendMessage = async (req, res) => {
 
     let imageUrl;
     if (image) {
-      // Upload base64 image to cloudinary
-      const uploadResponse = await cloudinary.uploader.upload(image);
+      // Direct upload to Cloudinary
+      const uploadResponse = await cloudinary.uploader.upload(image, {
+        folder: "chat_messages",
+        // This ensures it's treated as an image/attachment
+        resource_type: "auto",
+      });
+      
       imageUrl = uploadResponse.secure_url;
     }
 
@@ -52,7 +57,7 @@ export const sendMessage = async (req, res) => {
       senderId,
       receiverId,
       text,
-      image: imageUrl,
+      image: imageUrl, // This URL will be used for downloading on frontend
     });
 
     await newMessage.save();
@@ -64,7 +69,7 @@ export const sendMessage = async (req, res) => {
 
     res.status(201).json(newMessage);
   } catch (error) {
-    console.log("Error in sendMessage controller: ", error.message);
+    console.error("Error in sendMessage controller: ", error);
     res.status(500).json({ error: "Internal server error" });
   }
 };
