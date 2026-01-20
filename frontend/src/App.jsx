@@ -34,7 +34,8 @@ const App = () => {
     );
 
   return (
-    <div data-theme={theme}>
+     <div data-theme={theme} className="min-h-screen">
+
       <Navbar />
 
       <Routes>
