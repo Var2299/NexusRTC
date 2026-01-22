@@ -15,9 +15,7 @@ dotenv.config();
 const PORT = process.env.PORT;
 const __dirname = path.resolve();
 
-// REMOVE the line: app.use(express.json()); <--- This was the culprit!
 
-// Only use these with the limits defined
 app.use(express.json({ limit: "10mb" })); 
 app.use(express.urlencoded({ limit: "10mb", extended: true }));
 
