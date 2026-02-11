@@ -17,6 +17,11 @@ NexusRTC is a high-performance, real-time communication platform built using the
 * **📥 Downloads:** Built-in blob-based download functionality for all shared attachments.
 
 ---
+##  Complete Data Flow & Architecture
+
+<img width="973" height="536" alt="image" src="https://github.com/user-attachments/assets/0b857d02-d39d-4dae-b921-33992b15408e" />
+
+---
 
 ## 📸 Screenshots
 
