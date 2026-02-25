@@ -4,43 +4,46 @@ import daisyui from "daisyui";
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'blob': 'blob 7s infinite',
+        'float': 'float 6s ease-in-out infinite',
+      },
+      keyframes: {
+        blob: {
+          "0%": {
+            transform: "translate(0px, 0px) scale(1)",
+          },
+          "33%": {
+            transform: "translate(30px, -50px) scale(1.1)",
+          },
+          "66%": {
+            transform: "translate(-20px, 20px) scale(0.9)",
+          },
+          "100%": {
+            transform: "translate(0px, 0px) scale(1)",
+          },
+        },
+        float: {
+          "0%, 100%": {
+            transform: "translateY(0) rotate(0deg)",
+          },
+          "50%": {
+            transform: "translateY(-20px) rotate(5deg)",
+          },
+        },
+      },
+    },
   },
   plugins: [daisyui],
   daisyui: {
     themes: [
-      "light",
-      "dark",
-      "cupcake",
-      "bumblebee",
-      "emerald",
-      "corporate",
-      "synthwave",
-      "retro",
-      "cyberpunk",
-      "valentine",
-      "halloween",
-      "garden",
-      "forest",
-      "aqua",
-      "lofi",
-      "pastel",
-      "fantasy",
-      "wireframe",
-      "black",
-      "luxury",
-      "dracula",
-      "cmyk",
-      "autumn",
-      "business",
-      "acid",
-      "lemonade",
-      "night",
-      "coffee",
-      "winter",
-      "dim",
-      "nord",
-      "sunset",
+      "light", "dark", "cupcake", "bumblebee", "emerald", "corporate",
+      "synthwave", "retro", "cyberpunk", "valentine", "halloween",
+      "garden", "forest", "aqua", "lofi", "pastel", "fantasy",
+      "wireframe", "black", "luxury", "dracula", "cmyk", "autumn",
+      "business", "acid", "lemonade", "night", "coffee", "winter",
+      "dim", "nord", "sunset",
     ],
   },
 };
