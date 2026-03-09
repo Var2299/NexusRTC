@@ -61,6 +61,11 @@ NexusRTC is a high-performance, real-time communication platform built using the
 
  ---
 
+ ### Performance & Latency (Avg. 800ms)
+<img width="1783" height="462" alt="image" src="https://github.com/user-attachments/assets/056cdd2a-27d5-4cef-8bdb-61abb1b06052" />
+
+---
+
 ## 🛠️ Installation & Setup
 
 ### 1. Clone the repository
